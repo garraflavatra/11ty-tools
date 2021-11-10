@@ -1,5 +1,8 @@
 # 11ty-tools
 
+[![Lint](https://github.com/garraflavatra/11ty-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/garraflavatra/11ty-tools/actions/workflows/lint.yml)
+![GitHub last commit](https://img.shields.io/github/last-commit/garraflavatra/11ty-tools)
+
 This package provides an advanced asset pipeline for [Eleventy], the simpler static site generator.
 
 JavaScript ([ECMAScript] is supported) and [Sass]/SCSS assets will be compiled using [webpack], a static module bundler for the web. This plugin also configures [11ty-image] to optimize internal and external images. Furthermore, it minimizes Eleventy's HTML output using [html-minifier].
