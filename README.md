@@ -43,6 +43,10 @@ Any valid JavaScript file put in `src/assets/js/*.js` will get processed and put
 
 Any valid Sass or SCSS file that is imported in `src/assets/style/bundle.js` will get processed and put in the asset manifest.
 
+#### Webfonts
+
+Local font files that are referenced to in Sass or SCSS will get a hashed output name too. Make sure you download them into your project using [google-webfonts-helper] (e.g. into `src/assets/fonts`).
+
 #### How to use assets
 
 There are two ways to using assets.
@@ -84,6 +88,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [11ty-image]: https://www.11ty.dev/docs/plugins/image/
 [html-minifier]: https://github.com/kangax/html-minifier
 [`sizes`]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source#attr-sizes
+[google-webfonts-helper]: https://google-webfonts-helper.herokuapp.com/fonts
 [webpack-assets-manifest]: https://github.com/webdeveric/webpack-assets-manifest
 [contributing.md]: https://github.com/garraflavatra/11ty-tools/blob/main/CONTRIBUTING.md
 [license.md]: https://github.com/garraflavatra/11ty-tools/blob/main/LICENSE.md
