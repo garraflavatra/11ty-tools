@@ -87,6 +87,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [webpack]: https://webpack.js.org
 [11ty-image]: https://www.11ty.dev/docs/plugins/image/
 [html-minifier]: https://github.com/kangax/html-minifier
+[11ty-template]: https://github.com/garraflavatra/11ty-template
 [`sizes`]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source#attr-sizes
 [google-webfonts-helper]: https://google-webfonts-helper.herokuapp.com/fonts
 [webpack-assets-manifest]: https://github.com/webdeveric/webpack-assets-manifest
