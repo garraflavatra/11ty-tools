@@ -2,6 +2,7 @@
 
 [![Lint](https://github.com/garraflavatra/11ty-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/garraflavatra/11ty-tools/actions/workflows/lint.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/garraflavatra/11ty-tools)
+[![npm](https://img.shields.io/npm/v/11ty-tools)](https://www.npmjs.com/package/11ty-tools)
 
 This package provides an advanced asset pipeline for [Eleventy], the simpler static site generator.
 
