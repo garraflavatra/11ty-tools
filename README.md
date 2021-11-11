@@ -60,6 +60,7 @@ However, sometimes it is useful to inline an asset right in your HTML. You could
 You can have your images processed by using the `{% image 'path'[, 'alt'[, 'sizes']] %}` shortcode. Parameters:
 
 - `path` **(required)**: The path to the image. Can be internal (e.g. `img/cat.png`) or external (e.g. `https://somesite.io/image.jpeg`).
+  NOTE: internal images are automatically provided with the prefix `src/site/img/`. If you would like to include an image outside that folder, add a leading slash to the path. There is no global config option to disable or change the base path.
 - `alt` **(recommended)**: Alt text for screen readers.
 - `sizes`: see [`sizes`] on MDN HTML documentation.
 
