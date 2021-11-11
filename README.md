@@ -64,6 +64,18 @@ You can have your images processed by using the `{% image 'path'[, 'alt'[, 'size
 - `alt` **(recommended)**: Alt text for screen readers.
 - `sizes`: see [`sizes`] on MDN HTML documentation.
 
+### YouTube
+
+You can replace your unwieldy YouTube iframes with: `{% yt 'oGhe8dtRIH0' %}`.
+
+Positional arguments:
+
+1. `videoId` **(required)**: the ID of your video. You can find it in the YouTube video URL after `watch?v=`.
+2. `title`: title and alt for your video.
+3. `width`: iframe width.
+4. `height`: iframe height.
+5. `allow`: [`allow`] attribute. Defaults to standard YouTube iframe requirements.
+
 ## Contributing
 
 > Included in [CONTRIBUTING.md]
@@ -92,5 +104,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [`sizes`]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source#attr-sizes
 [google-webfonts-helper]: https://google-webfonts-helper.herokuapp.com/fonts
 [webpack-assets-manifest]: https://github.com/webdeveric/webpack-assets-manifest
+[`allow`]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-allow
 [contributing.md]: https://github.com/garraflavatra/11ty-tools/blob/main/CONTRIBUTING.md
 [license.md]: https://github.com/garraflavatra/11ty-tools/blob/main/LICENSE.md
